@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <u><h1>Rock, Paper, Scissors</h1></u>
+        <div id = 'playground'>
+            <div class = 'player'>
+                <img id="therock" src = 'https://static.wikia.nocookie.net/prowrestling/images/a/ad/Wwe_the_rock_png_by_double_a1698_day9ylt-pre_%281%29.png/' alt = 'rock'>
+                <img id="clippy" src = 'https://i.pinimg.com/originals/15/a8/21/15a821ea79990bb7edd4eb058a510862.png' alt = 'paper'>
+                <img id="scissorhands" src = 'https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fcc8d2546-c017-11e8-a932-84839f5183a4.png?crop=1030%2C579%2C0%2C54' alt = 'scissors'>
+                <img id="placeholder" src= 'https://www.nicepng.com/png/full/804-8041569_cute-sticker-easy-cute-dinosaur-drawing.png' alt="dino">
+            </div>
+            <div class = 'computer'>
+                <img id="theRockCpu" src = 'https://static.wikia.nocookie.net/prowrestling/images/a/ad/Wwe_the_rock_png_by_double_a1698_day9ylt-pre_%281%29.png/' alt = 'rock'>
+                <img id="clippyCpu" src = 'https://i.pinimg.com/originals/15/a8/21/15a821ea79990bb7edd4eb058a510862.png' alt = 'paper'>
+                <img id="scissorHandsCpu" src = 'https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fcc8d2546-c017-11e8-a932-84839f5183a4.png?crop=1030%2C579%2C0%2C54' alt = 'scissors'>
+                <img id="placeholderCpu" src= 'https://www.nicepng.com/png/full/804-8041569_cute-sticker-easy-cute-dinosaur-drawing.png' alt ="dino">
+            </div>
+        </div>
+        <br class="spacer"><input type="text" id="username" name="username" placeholder="Enter Username"><br class="spacer">
+        <h3 id="chooseYourWeapon">Choose your weapon!</h3>
+        <ul> 
+        <li>Total wins:</li>
+        <li>Total losses:</li>
+        <li>Total ties:</li>
+        <li>Total score:</li>
+        </ul>
+
+        <div>
+            <button type="button" id= 'rock'>ROCK</button>
+            <button type="button" id= 'paper'>PAPER</button>
+            <button type="button" id= 'scissors' >SCISSORS</button>
+        </div>
+        <button type="button" id='resetButton'>RESET</button>
+        <script src = 'main.js'></script>
+    </body>
+</html>

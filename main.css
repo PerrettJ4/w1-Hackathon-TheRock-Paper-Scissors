@@ -1,0 +1,81 @@
+
+body {
+    text-align: center;
+    font-family: 'Gowun Batang', "Courier New", monospace;
+}
+
+#playground{
+    background-color:white;
+    display: flex;
+}
+
+.player{
+    background-color:red;
+    height:30%;
+    width: 50%;
+    margin:auto;
+    display:block;
+}
+
+.computer{
+    background-color:blue;
+    height: 30%;
+    width: 50%;    
+    margin:auto;
+    display:block;
+}
+#placeholder{
+    z-index: 1;
+    display: block;
+    opacity: 0.2;
+}
+#placeholderCpu{
+    z-index: 1;
+    display: block;
+    opacity: 0.2;
+}
+#therock{
+    z-index: 1;
+    display: none;
+}
+#scissorhands{
+    z-index: 2;
+    display: none;
+}
+#clippy{
+    z-index: 3;
+    display: none;
+}
+#theRockCpu{
+    z-index: 1;
+    display: none;
+}
+#scissorHandsCpu{
+    z-index: 2;
+    display: none;
+}
+#clippyCpu{
+    z-index: 3;
+    display: none;
+}
+
+img{
+    height:300px;
+    width:auto; 
+    margin:auto;
+    display:block;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+button{ 
+    margin-top: 20px;
+    font-size: x-large;
+}
+
